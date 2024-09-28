@@ -1,0 +1,48 @@
+Object Oriented Programming
+
+Sep 27, 2024
+
+Submitted by:
+
+Collins Munene
+
+BSE-01-0222/2024
+
+Car Rental System
+
+Introduction:
+
+A car rental system is a software application that allows users
+
+to rent vehicles from a car rental company. The system can be
+
+implemented using an object-oriented programming language
+
+such as Java. The system will typically have classes for
+
+representing car, customers and rental agency, and implement functions such as calculating rental fees,
+
+checking vehicle availability, and processing payments.
+
+MODULES:
+1.Car:
+the car class models a car available for rent. 
+
+It encapsulates information about the car, such as its ID, model, brand, rental price per day, and rental status.
+
+2.Customer:
+the customer class models a customer who rents cars from the agency. 
+
+It contains personal information about the customer, as well as details of any car they have rented.
+
+3.The rental agency:
+the rental agency class represents the main system that manages the cars and customers, and facilitates rental transactions. 
+
+It holds a list of all cars and customers in the system and provides methods to manage these entities.
+
+CONCLUSION:
+This Car Rental System project is built using the core principles of Object-Oriented Programming. 
+
+It encapsulates the functionality of a real-world rental agency and supports easy future enhancements. 
+
+Comprehensive testing ensures system reliability and accuracy in handling car rentals and customer management.
