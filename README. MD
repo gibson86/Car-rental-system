@@ -40,6 +40,21 @@ the rental agency class represents the main system that manages the cars and cus
 
 It holds a list of all cars and customers in the system and provides methods to manage these entities.
 
+GUI:
+1.Add car and customer
+
+RentalAgency agency = new RentalAgency();
+
+Car car1 = new Car(1, "crown", "toyota", 150.0);
+Car car2 = new Car(2, "probox", "toyota", 100.0);
+agency.addCar(car1);
+agency.addCar(car2);
+
+Customer customer1 = new Customer(1, "John", "john@gmail.com");
+Customer customer2 = new Customer(2, "mary", "mary@gmail.com");
+agency.addCustomer(customer1);
+agency.addCustomer(customer2);
+
 CONCLUSION:
 This Car Rental System project is built using the core principles of Object-Oriented Programming. 
 
